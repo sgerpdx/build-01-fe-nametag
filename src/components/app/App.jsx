@@ -1,11 +1,11 @@
 import React from 'react';
 import NameTag from '../../containers/NameTag';
+import styles from './App.css';
 
 export default function App() {
   return (
-    <>
-      <h1>Hello World</h1>
+    <section className={styles.mainArea}>
       <NameTag />
-    </>
+    </section>
   );
 }

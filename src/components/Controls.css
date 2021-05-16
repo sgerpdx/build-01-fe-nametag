@@ -1,0 +1,14 @@
+.formArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: right;
+  background-color: blue;
+  color: white;
+}
+
+input {
+  padding: 4px;
+  margin: 4px;
+  color: black;
+}

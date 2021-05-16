@@ -1,21 +1,14 @@
-.backgroundArea {
+body {
   display: flex;
   flex-direction: column;
+  background-color: grey;
   align-items: center;
   justify-content: center;
-  color: grey;
 }
 
-.tagWrapper {
+.mainArea {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: blue;
-  color: white;
-  border: solid 1px white;
-  border-radius: 10px;
-  height: 30vh;
-  width: 40vw;
-  padding: 4px;
 }

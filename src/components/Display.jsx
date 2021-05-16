@@ -1,10 +1,11 @@
 import React from 'react';
 import Controls from './Controls';
+import styles from './Display.css';
 
 export default function Display(props) {
   return (
-    <section className="backgroundArea">
-      <div className="tagWrapper">
+    <section className={styles.backgroundArea}>
+      <div className={styles.tagWrapper}>
         <Controls
           greeting={props.greeting}
           name={props.name}

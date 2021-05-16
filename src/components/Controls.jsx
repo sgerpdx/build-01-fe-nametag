@@ -1,9 +1,10 @@
 import React from 'react';
+import styles from './Controls.css';
 
 export default function Controls(props) {
   return (
     <>
-      <form>
+      <form className={styles.formArea}>
         <label>
           Greeting:
           <input
